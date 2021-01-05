@@ -1006,7 +1006,7 @@ main .umow-sie {
   justify-content: center;
   align-items: center;
   margin: 50px 0;
-  padding-top: 150px;
+  padding-top: 120px;
 }
 
 .cennik-container {
@@ -1344,10 +1344,6 @@ form button {
   }
   .form-info-column p {
     font-size: 1.2rem;
-  }
-
-  .form-header {
-    /* margin-bottom: 10px; */
   }
 
   form {
