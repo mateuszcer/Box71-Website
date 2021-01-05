@@ -8,6 +8,7 @@ window.onload = () => {
 const hamburger = document.querySelector('.hamburger-menu')
 const links = document.querySelector('.links')
 
+
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('menu-active')
     links.classList.toggle('links-active')
@@ -30,6 +31,9 @@ submitButton.addEventListener('click', (e) => {
     })
 })
 
-
-
-
+// SUPPORT FOR AUTOCOMPLETE
+field.forEach(f => {
+  f.addEventListener('input', () => {
+    f.nextSibling.nextSibling.classList.add('clicked');
+  })
+})
